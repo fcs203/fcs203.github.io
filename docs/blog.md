@@ -4,11 +4,11 @@ home: true
 layout: Blog
 icon: home
 bgImage: http://tc.seoipo.com/home-bg-1.jpg
-title: 互联网小白
+title: 狐言乱语
 #heroImage: /logo.svg
-heroText: 互联网小白
+heroText: 狐言乱语
 heroFullScreen: false
-tagline: 盛年不重来，一日难再晨
+tagline: 如切如磋，如琢如磨
 #projects:
 #  - icon: project
 #    name: 项目名称
