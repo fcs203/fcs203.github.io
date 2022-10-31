@@ -6,16 +6,16 @@
     <link>https://newzone.top/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 31 Oct 2022 02:38:33 GMT</pubDate>
-    <lastBuildDate>Mon, 31 Oct 2022 02:38:33 GMT</lastBuildDate>
+    <pubDate>Mon, 31 Oct 2022 03:30:36 GMT</pubDate>
+    <lastBuildDate>Mon, 31 Oct 2022 03:30:36 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>系统</category>
     <category>网络</category>
-    <category>服务器</category>
     <category>自动化</category>
-    <category>健康</category>
+    <category>服务器</category>
     <category>博客</category>
+    <category>工具</category>
     <item>
       <title>电脑关机了，第二天一看确又开着的？让系统正常关机！</title>
       <link>https://newzone.top/_posts/2017-09-02-forced_shutdown.html</link>
@@ -158,30 +158,6 @@
       <enclosure url="https://pic2.zhimg.com/v2-658d5433201b79da169a520f4b19d495_r.jpg" type="image/jpeg"/>
     </item>
     <item>
-      <title>小型网站管理员，快放弃 CDN！</title>
-      <link>https://newzone.top/_posts/2018-01-19-forget_the_cdn.html</link>
-      <guid>https://newzone.top/_posts/2018-01-19-forget_the_cdn.html</guid>
-      <source url="https://newzone.top/rss.xml">小型网站管理员，快放弃 CDN！</source>
-      <category>服务器</category>
-      <pubDate>Fri, 19 Jan 2018 12:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<blockquote>
-<p>CDN 的全称是 Content Delivery Network，即内容分发网络。其基本思路是尽可能避开互联网上有可能影响数据传输速度和稳定性的瓶颈和环节，使内容传输的更快、更稳定。通过在网络各处放置节点服务器所构成的在现有的互联网基础之上的一层智能虚拟网络，CDN 系统能够实时地根据网络流量和各节点的连接、负载状况以及到用户的距离和响应时间等综合信息将用户的请求重新导向离用户最近的服务节点上。其目的是使用户可就近取得所需内容，解决 Internet 网络拥挤的状况，提高用户访问网站的响应速度。</p>
-</blockquote>
-<p>国内 CDN 有阿里云、腾讯、百度、网宿、七牛云、又拍云等。</p>
-<p>这里以阿里云 CDN 为例。我之前使用阿里云全站 CDN，一直以为速度会加快。但命中率只有 7%，在更换为 ECS 后，命中率更降为 2%。</p>
-<p>更可怕的是，我提交工单后才得到的事实。<strong>CDN 运营商会根据 DNS 分配就近分配 CDN 节点，抓取网站缓存。</strong></p>
-<p>第一反应：「不错啊。如果网站在北京，访客在上海，直接访问上海的节点，速度必然要快一些。」</p>
-<p>但事实并没有这么完美。<strong>CDN 是根据本地 DNS 来分配节点。</strong></p>
-<p>你从上海放出访问申请，DNS 有可能帮你分配去广东的节点。极端情况下，有可能分配到不同运营商，<strong>导致无法打开网站。</strong></p>
-<p>我进行了三个测试，本地网络环境都是上海电信，更换了 DNS 设置。</p>
-<p>第一次测试使用 114DNS，分配了广州鹏博士网络，网站打不开。提交工单后，客服反映<strong>这个节点是局域网节点，只有鹏博士网络才能打开。</strong></p>
-<p>第二次测试使用电信默认 DNS，分配苏州电信，网站正常。</p>
-<p>第三次测试使用阿里云 DNS，分配杭州电信，网站正常</p>
-<p>后面两次虽然都能打开网站，但没有一个分配在上海电信，这种加速又能快多少呢？</p>
-<p>在网站<strong>配置足够、流量不大（日均访客 1000 以内）</strong> 时，不建议使用全站 CDN，这只会拖累访问体验。小网站只适合将图片部署在 CDN。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>雇个机器人帮你干活</title>
       <link>https://newzone.top/_posts/2018-01-31-hire_a_robot.html</link>
       <guid>https://newzone.top/_posts/2018-01-31-hire_a_robot.html</guid>
@@ -214,93 +190,6 @@ AI 会取代你的工作！</p>
 <li><a href="https://www.guokr.com/" target="_blank" rel="noopener noreferrer">果壳网</a>：果壳首页推荐，官方更新速度较慢，刚好可以了解些奇思妙想</li>
 <li>工作类：梅花、SocialBeta、数英网、艾瑞网</li>
 </ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>提早晚餐，饿死算逑</title>
-      <link>https://newzone.top/_posts/2018-03-06-no_more_dinner.html</link>
-      <guid>https://newzone.top/_posts/2018-03-06-no_more_dinner.html</guid>
-      <source url="https://newzone.top/rss.xml">提早晚餐，饿死算逑</source>
-      <category>健康</category>
-      <pubDate>Tue, 06 Mar 2018 22:06:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>上大学后，每天晚上都打游戏点「叉鸭例牌 + 两碗米饭」，体重成功上到 85KG。后来减肥在 13 年达到历史低点 75KG，但后来持续上升，在 18 年春节达到顶点，93KG，比婚前胖了<strong>38 斤</strong>。</p>
-<p>目前以在家办公为主，很少出门，每天走路都没走多少，更别说运动了。</p>
-<p><strong>解决方案：</strong></p>
-<ol>
-<li>
-<p>增加运动：每天划船机 2 公里，后期再逐步加量</p>
-</li>
-<li>
-<p>调节饮食，多喝水不吃炸鸡</p>
-<ul>
-<li>
-<p>早餐：9 点，牛奶 + 麦片</p>
-</li>
-<li>
-<p>午餐：12 点，正常</p>
-</li>
-<li>
-<p>晚餐：4 点，晚餐后不再吃东西</p>
-</li>
-</ul>
-</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th>日期</th>
-<th>历史体重</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2012 年 9 月 2 日 23:04:51</td>
-<td>85KG</td>
-<td>今天吃了 3 个苹果，3 块钱煎饼。刚洗完澡</td>
-</tr>
-<tr>
-<td>2013 年 4 月 11 日 21:24:54</td>
-<td>86.4KG</td>
-<td>脱去外套</td>
-</tr>
-<tr>
-<td>2013 年 9 月 5 日 8 点</td>
-<td>81.8kg</td>
-<td></td>
-</tr>
-<tr>
-<td>2013 年 10 月 3 日 9:55:02</td>
-<td>78.7KG</td>
-<td></td>
-</tr>
-<tr>
-<td>2014 年 2 月 25 日春节</td>
-<td>83KG</td>
-<td>重新开始减重</td>
-</tr>
-<tr>
-<td>2014 年 10 月 19 日 16:50:10</td>
-<td>86.1KG</td>
-<td></td>
-</tr>
-<tr>
-<td>2016 年 8 月 4 日</td>
-<td>88KG</td>
-<td></td>
-</tr>
-<tr>
-<td>2018 年 3 月 6 日 晚</td>
-<td>91.6 KG</td>
-<td></td>
-</tr>
-<tr>
-<td>2020 年 10 月 6 日</td>
-<td>95 KG</td>
-<td>巅峰，开始营养健康餐</td>
-</tr>
-</tbody>
-</table>
 ]]></content:encoded>
     </item>
     <item>
@@ -386,6 +275,278 @@ AI 会取代你的工作！</p>
 </ol>
 <p>愿意折腾的话，可以使用 Travis CI 和 Docker 完成全自动化更新。</p>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>Jekyll 篇二：自动部署服务器博客</title>
+      <link>https://newzone.top/_posts/2018-05-03-jekyll_blog_autodeploy.html</link>
+      <guid>https://newzone.top/_posts/2018-05-03-jekyll_blog_autodeploy.html</guid>
+      <source url="https://newzone.top/rss.xml">Jekyll 篇二：自动部署服务器博客</source>
+      <category>博客</category>
+      <pubDate>Thu, 03 May 2018 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Github 上搭建 Jekyll 是最方便的，空间免费、流量免费、部署简单。但 Github 属于被墙状态，将博客部署在那，速度实在太慢。在玩了几天后，我开始在服务器上直接搭建 Jekyll 博客。</p>
+<p>服务器搭建需要人工执行 <code>jekyll build</code>, 完全背离了最开始搭建博客的初衷-<strong>方便</strong>。之后结合了网络上多个自动化方案，选定入门成本最低的 <code>Github</code> -&gt; <code>Travis CI</code> -&gt; <code>Docker</code>-&gt; <code>VPS</code>。</p>
+<h2 id="搭建思路" tabindex="-1"> 搭建思路</h2>
+<ul>
+<li>本地提交博客 Markdown 文件 到 Github 源文件 repository</li>
+<li>Github 触发 Travis CI 执行自动编译</li>
+<li>Travis CI 编译后 push 静态文件到 Github 静态文件 repository</li>
+<li>Travis CI 通知 Docker 重建镜像（预计 5 分钟）</li>
+<li>服务器休眠 5 分钟后，Travis CI 通知服务器</li>
+<li>服务器拉取最新镜像，然后停止并删除原容器，用最新镜像重建容器</li>
+</ul>
+<h2 id="travis-ci-基本配置" tabindex="-1"> Travis CI 基本配置</h2>
+<p>Travis CI 对于开源项目完全免费，并且能自动感知到 Github 的 commit，帮我们解决了静态文件生成问题。</p>
+<p>先用 Github 登录 Travis CI，然后点击最右侧的头像，开启想要使用 Travis CI 的项目</p>
+<p><img src="http://tc.seoipo.com/20180504135244.png" alt="" loading="lazy"></p>
+<p>点击设置按钮，进入项目设置</p>
+<p><img src="http://tc.seoipo.com/20180504135541.png" alt="" loading="lazy"></p>
+<h2 id="静态文件更新" tabindex="-1"> 静态文件更新</h2>
+<p>Travis CI push 静态文件到 Github 通过 Github 的 token 实现授权，push 代码如下</p>
+<div data-ext="sh"><pre><code>after_success:
+  - <span>git</span> clone https://github.com/rockbenben/rockbenben.github.io.git
+  - <span>cd</span> rockbenben.github.io <span>&amp;&amp;</span> <span>rm</span> <span>-rf</span> * <span>&amp;&amp;</span> <span>cp</span> <span>-r</span> <span>..</span>/_site/* <span>.</span>
+  - <span>git</span> config user.name <span>"rockbenben"</span>
+  - <span>git</span> config user.email <span>"qingwhat@gmail.com"</span>
+  - <span>git</span> <span>add</span> <span>--all</span> <span>.</span>
+  - <span>git</span> commit <span>-m</span> <span>"Travis CI Auto Builder"</span>
+  - <span>git</span> push <span>--force</span> https://<span>$DEPLOY_TOKEN</span>@github.com/rockbenben/blog.git master
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><code>$DEPLOY_TOKEN</code> 是从 Github 授权得到的，<code>setting - Developer settings - Personal access tokens - Generate new token</code>, 然后给于相应权限即可，<code>admin:public_key, admin:repo_hook, repo</code>。</p>
+<p><img src="http://tc.seoipo.com/20180504153729.png" alt="" loading="lazy"></p>
+<p>进入 Travis 的 repo 项目，<code>More options - Settings - Environment Variables</code>, 新建一个变量<code>DEPLOY_TOKEN</code>，把 Github 的授权 token 保存在里面。</p>
+<p><img src="http://tc.seoipo.com/20180504154229.png" alt="" loading="lazy"></p>
+<p>Travis CI 提供了存放加密文件的方式，参考 <a href="https://docs.travis-ci.com/user/encrypting-files/" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
+<h2 id="dockerfiles-设置" tabindex="-1"> Dockerfiles 设置</h2>
+<p>在 Github 中新建一个 repository，可以命名为 <code>dockerfiles</code>, 专门用来存储 Docker 镜像的设置文件。在 <code>dockerfiles</code> 新建文件夹 <code>jekyll</code> ，并在 <code>jekyll</code> 中新建文件 <code>Dockerfile</code>, 放入以下代码：</p>
+<div data-ext="sh"><pre><code>FROM nginx:1.13.9-alpine
+
+LABEL <span>maintainer</span><span>=</span><span>"Benson &lt;qingwhat@gmail.com>"</span>
+
+ARG <span>TZ</span><span>=</span><span>'Asia/Shanghai'</span>
+
+ENV TZ <span>${TZ}</span>
+
+RUN apk upgrade <span>--update</span> <span>\</span>
+    <span>&amp;&amp;</span> apk <span>add</span> <span>bash</span> <span>git</span> <span>\</span>
+    <span>&amp;&amp;</span> <span>rm</span> <span>-rf</span> /usr/share/nginx/html <span>\</span>
+    <span>&amp;&amp;</span> <span>git</span> clone https://github.com/rockbenben/blog.git /usr/share/nginx/html <span>\</span>
+    <span>&amp;&amp;</span> <span>ln</span> <span>-sf</span> /usr/share/zoneinfo/<span>${TZ}</span> /etc/localtime <span>\</span>
+    <span>&amp;&amp;</span> <span>echo</span> <span>${TZ}</span> <span>></span> /etc/timezone <span>\</span>
+    <span>&amp;&amp;</span> <span>rm</span> <span>-rf</span> /var/cache/apk/*
+
+<span># ADD entrypoint.sh /entrypoint.sh #容易报错</span>
+<span># ADD flush /usr/local/bin/flush #容易报错</span>
+
+WORKDIR /usr/share/nginx/html
+
+<span># CMD ["/entrypoint.sh"] #容易报错</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>将 Travis CI 生成的静态文件推送到 Github，博客的 docker 化部署，采用 nginx + 静态文件 方式</p>
+<p>样例 Dockerfile: <a href="https://github.com/mritd/dockerfile/tree/master/mritd" target="_blank" rel="noopener noreferrer">https://github.com/mritd/dockerfile/tree/master/mritd</a></p>
+<h2 id="docker-镜像设置" tabindex="-1"> Docker 镜像设置</h2>
+<p>注册并登录 <a href="https://hub.docker.com" target="_blank" rel="noopener noreferrer">Docker Hub</a>，点击 <code>Create - Create Automated Build - Create Auto-build Github</code>, 选择之前新建的 <code>dockerfiles</code> repository。</p>
+<p>建立 Automated Build 镜像后，进入 <code>Build Seeting</code>, 点击 Trigger，建立第一个 Docker 镜像。</p>
+<p><img src="http://tc.seoipo.com/20180504161016.png" alt="" loading="lazy"></p>
+<p>然后在 <code>Building Settings - Build Triggers - Activate Triggers</code> ，复制 Trigger URL。</p>
+<p><img src="http://tc.seoipo.com/20180504161245.png" alt="" loading="lazy"></p>
+<p>然后在服务器上执行下列代码，拉取并<strong>启动 Docker 镜像</strong>。</p>
+<div data-ext="sh"><pre><code><span>docker</span> pull rockben/jekyll
+<span>docker</span> stop jekyll_blog
+<span>docker</span> <span>rm</span> jekyll_blog
+<span>docker</span> run <span>--name</span><span>=</span>jekyll_blog <span>-d</span> <span>-p</span> <span>39100</span>:80 <span>--privileged</span><span>=</span>true rockben/jekyll:latest
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><p>--name=jekyll_blog 中的 <code>jekyll_blog</code> 是对容器的命名，方便后续操作。</p>
+<p>-d 让容器在后台运行。</p>
+<p>-p 映射端口：80 是容器内对应的端口，39100 是主机端口，也就是最终用户访问的端口，本端口可以自由选择。</p>
+<p>--privileged=true 关闭安全权限，否则你容器操作文件夹没有权限。</p>
+<p>--<code>rockben/jekyll:latest</code> 是容器名称，可省略 <code>:latest</code>。</p>
+<p>运行容器后，访问 <code>seoipo.com:39100</code> 就可以看到镜像网页。如果每次用端口访问，可以在域名 DNS 中设置显性 URL，将二级域名 <code>blog.seoipo.com</code> 指向 <code>seoipo.com:39100</code></p>
+<h3 id="docker-扩展阅读" tabindex="-1"> Docker 扩展阅读</h3>
+<p><strong>Docker 命令符</strong>：</p>
+<div data-ext="sh"><pre><code><span>docker</span> <span>ps</span> // 查看所有正在运行容器
+<span>docker</span> stop containerId // containerId 是容器的 ID
+
+<span>docker</span> <span>ps</span> <span>-a</span> // 查看所有容器
+<span>docker</span> <span>ps</span> <span>-a</span> <span>-q</span> // 查看所有容器 ID
+
+<span>docker</span> stop <span><span>$(</span><span>docker</span> <span>ps</span> <span>-a</span> <span>-q</span><span>)</span></span> //  stop 停止所有容器
+<span>docker</span> <span>rm</span> <span><span>$(</span><span>docker</span> <span>ps</span> <span>-a</span> <span>-q</span><span>)</span></span> //   remove 删除所有容器
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><strong><code>docker run</code> 进阶设置</strong></p>
+<div data-ext="sh"><pre><code><span>docker</span> run <span>--name</span><span>=</span>jekyll_blog <span>-d</span> <span>-p</span> <span>39100</span>:80 <span>-v</span> /www/wwwroot/jekyll:/jekyll <span>--privileged</span><span>=</span>true rockben/jekyll:latest /bin/bash
+</code></pre><div aria-hidden="true"><div></div></div></div><p>-v 挂载目录/root/software 本地目录 /software 容器目录，在创建前容器是没有 software 目录的，docker 容器会自己创建
+--<code>/bin/bash</code> 这是 CMD 命令行，可不填</p>
+<h2 id="ssh-免密码登录" tabindex="-1"> SSH 免密码登录</h2>
+<p>Travis 不能利用用户名和密码登陆，我们只有利用<strong>SSH 免密登陆</strong>服务器，更新并重启 Docker 容器。</p>
+<p><strong>1、生成公钥/私钥对</strong></p>
+<div data-ext="sh"><pre><code><span>cd</span> ~/.ssh  <span># 切换 .ssh 目录，目录的第一个字符如果是 `.` 表示改文件夹是隐藏文件夹</span>
+<span>mkdir</span> ~/.ssh  <span>#如果 .ssh 文件夹不存在，可以执行指令自行创建。如果 .ssh 文件已经存在，该命令会指出 .ssh 目录：/root/.ssh</span>
+ssh-keygen <span>-t</span> rsa     <span># 生成 RSA 密钥对，后面所有的直接以默认就行，passphase 一定要为空</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><p><strong>2、将生成的公钥添加为受信列表</strong></p>
+<div data-ext="sh"><pre><code><span>cd</span> ~/.ssh  <span># 切换.ssh 目录</span>
+<span>cat</span> id_rsa.pub <span>>></span> authorized_keys <span>#将公钥内容输出到 authorized_keys 中</span>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><p><strong>3、在.ssh 目录下新增配置文件 config</strong></p>
+<div data-ext="sh"><pre><code><span>cd</span> ~/.ssh  <span># 切换 .ssh 目录</span>
+<span>vim</span> config  <span>#新建并打开目录</span>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><p>点击 <code>i</code> 进入编辑状态，输入下列代码。完毕后，点击 <code>Esc</code> 退出编辑状况，然后输入 <code>:wq!</code> 强制保存后离开文件</p>
+<div data-ext="sh"><pre><code>Host <span>test</span>
+HostName <span>99.99</span>.99.99<span>(</span>你的服务器 <span>ip</span><span>)</span>
+<span>#登陆的用户名</span>
+User travis
+IdentitiesOnly <span>yes</span>
+<span>#登陆使用的密钥</span>
+IdentityFile ~/.ssh/id_rsa
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><strong>4、在 Linux 服务器安装 Travis 客户端</strong>（rvm -&gt; ruby -&gt; gem -&gt;Travis）</p>
+<p><code>gem install travis</code></p>
+<p><strong>5、服务器创建空白<code>.travis.yml</code>文件</strong></p>
+<div data-ext="sh"><pre><code><span>mkdir</span> /home/travis <span>#新建 travis 文件夹</span>
+<span>touch</span> /home/travis/.travis.yml <span>#在 travis 文件夹里创建空白 .travis.yml 文件</span>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><p><strong>6、服务器登录 Travis，添加加密的私钥至代码仓库</strong></p>
+<div data-ext="sh"><pre><code><span>cd</span> /home/travis  <span>#进入 .travis.yml 所在文件夹</span>
+travis login     <span>#用 GitHub 账户登陆 travis</span>
+
+<span>#登陆成功后解密私钥，--add 参数会把加密的私钥解密命令插入到.travis.yml，Travis 解密时要用到的</span>
+<span>#-r 之后是 Github 源文件目录</span>
+travis encrypt-file ~/.ssh/id_rsa <span>--add</span> <span>-r</span> rockbenben/rockbenben.github.io
+
+<span>#保存加密后的私钥 id_rsa.enc，上传到 Github 源文件 repository 中</span>
+
+<span>#.travis.yml 中也自动添加了解密命令</span>
+<span>cat</span> /home/travis/.travis.yml  <span>#打开服务器的 .travis.yml 文件并保存</span>
+before_install:
+- openssl aes-256-cbc <span>-K</span> <span>$encrypted_</span>****_key <span>-iv</span> <span>$encrypted_</span>****_iv
+  <span>-in</span> id_rsa.enc <span>-out</span> ~/.ssh/id_rsa <span>-d</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><strong>成功加密后，会提示</strong></p>
+<div data-ext="sh"><pre><code>Make sure to <span>add</span> id_rsa.enc to the <span>git</span> repository.
+Make sure not to <span>add</span> ~/.ssh/id_rsa to the <span>git</span> repository.
+Commit all changes to your .travis.yml.
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><ul>
+<li>
+<p><strong>将新生成的 <code>id_rsa.enc</code> 文件上传到 Github 源文件 repository 中</strong></p>
+</li>
+<li>
+<p>将 <code>.travis.yml</code> 中的 <code>openssl aes-256-cbc -K $encrypted_5c280379e96c_key -iv $encrypted_5c280379e96c_iv -in id_rsa.enc -out ~/.ssh/id_rsa -d</code> 放入最终的 <code>.travis.yml</code> 文件中。</p>
+<p><img src="http://tc.seoipo.com/20180504184508.png" alt="" loading="lazy"></p>
+</li>
+</ul>
+<h2 id="travis-yml-配置" tabindex="-1"> travis.yml 配置</h2>
+<p>当项目内存在 <code>.travis.yml</code> 文件时，Travis CI 会按照其定义完成自动 build 过程，所以开启了上述配置以后还要在 Github 的 Jekyll 源文件项目下创建 <code>.travis.yml</code> 配置文件。</p>
+<p><img src="http://tc.seoipo.com/20180504141827.png" alt="" loading="lazy"></p>
+<p><code>.travis.yml</code> 配置文件内容样例如下：</p>
+<div data-ext="sh"><pre><code>language: ruby
+rvm:
+- <span>2.3</span>.3
+
+before_script:
+- openssl aes-256-cbc <span>-K</span> <span>$encrypted_5c280379e96c_key</span> <span>-iv</span> <span>$encrypted_5c280379e96c_iv</span>
+  <span>-in</span> id_rsa.enc <span>-out</span> ~/.ssh/id_rsa <span>-d</span>      <span>#本句是服务器上的 Travis 自动生成的，但默认生成的命令可能会在/前面带转义符\，我们不需要这些转义符，手动删掉所有的转义符，否则可能在后面引发莫名的错误。</span>
+- <span>chmod</span> <span>600</span> ~/.ssh/id_rsa
+- <span>echo</span> <span>-e</span> <span>"Host 106.15.190.249<span title="\n">\n</span><span title="\t">\t</span>StrictHostKeyChecking no<span title="\n">\n</span>"</span> <span>>></span> ~/.ssh/config <span>#106.15.190.249 是服务器 IP，修改成你自己的就行</span>
+
+<span># Assume bundler is being used, therefore</span>
+<span># the `install` step will run `bundle install` by default.</span>
+install:
+- gem <span>install</span> jekyll
+- gem <span>install</span> jekyll-paginate
+
+script: jekyll build <span>#&amp;&amp; htmlproofer ./_site #指定目录容易报错</span>
+
+after_success:
+  - <span>git</span> clone https://github.com/rockbenben/rockbenben.github.io.git
+  - <span>cd</span> rockbenben.github.io <span>&amp;&amp;</span> <span>rm</span> <span>-rf</span> * <span>&amp;&amp;</span> <span>cp</span> <span>-r</span> <span>..</span>/_site/* <span>.</span>
+  - <span>git</span> config user.name <span>"rockbenben"</span>
+  - <span>git</span> config user.email <span>"qingwhat@gmail.com"</span>
+  - <span>git</span> <span>add</span> <span>--all</span> <span>.</span>
+  - <span>git</span> commit <span>-m</span> <span>"Travis CI Auto Builder"</span>
+  - <span>git</span> push <span>--force</span> https://<span>$DEPLOY_TOKEN</span>@github.com/rockbenben/blog.git master
+  <span># Trigger all tags/branchs for this automated build.</span>
+  - <span>curl</span> <span>-X</span> POST https://registry.hub.docker.com/u/rockben/jekyll/trigger/9b1e9527-0cf1-4756-8332-50f8dff37747/ <span>#本句的链接是 hub.docker.com 自动生成，进入 docker 项目后，Building Settings - Build Triggers - Activate Triggers ，复制 Trigger URL</span>
+  - <span>sleep</span> 5m <span>#超过 10 分钟，tavis 将失去响应。此处是在等待 docker 镜像更新</span>
+  - <span>ssh</span> root@106.15.190.249 <span>-p</span> <span>27378</span> <span>-o</span> <span>StrictHostKeyChecking</span><span>=</span>no <span>"docker pull rockben/jekyll &amp;&amp; docker stop jekyll_blog &amp;&amp; docker rm jekyll_blog &amp;&amp; docker run --name=jekyll_blog -d -p 39100:80 --privileged=true rockben/jekyll:latest"</span>  <span>#ssh 连接后，重启 docker 容器，jekyll_blog 为之前设定的容器名。</span>
+  <span># -p 27378 是我自设的服务器端口，默认是 22</span>
+  <span># - ssh root@106.15.190.249 -p 27378 -o StrictHostKeyChecking=no "/www/wwwroot/jekyll_build.sh" #执行 jekyll 重建脚本</span>
+  <span>#- ssh root@106.15.190.249 -o StrictHostKeyChecking=no 'cd ~/blog-front &amp;&amp; git pull &amp;&amp; npm install &amp;&amp; npm run build'   #使用 ssh 连接服务器，git pull?</span>
+
+<span># branch whitelist, only for Github Pages</span>
+branchs:
+  only:
+  - master  <span>#指定只有检测到 master 分支有变动时才执行任务</span>
+
+env:
+  global:
+  - <span>NOKOGIRI_USE_SYSTEM_LIBRARIES</span><span>=</span>true <span># speeds up installation of html-proofer</span>
+
+addons:
+  ssh_known_hosts:
+  - <span>106.15</span>.190.249 <span>#受信主机，你的 Linux 服务器 ip</span>
+
+sudo: <span>false</span> <span># route your build to the container-based infrastructure for a faster build</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>具体 .travis.yml 配置，请参考 <a href="https://docs.travis-ci.com/" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
+<p>参考资料&amp;引用：</p>
+<ul>
+<li>
+<p><a href="https://github.com/Huxpro/huxpro.github.io" target="_blank" rel="noopener noreferrer">Jekyll 模板 hux blog</a></p>
+</li>
+<li>
+<p><a href="https://zhuanlan.zhihu.com/p/25066056" target="_blank" rel="noopener noreferrer">一点都不高大上，手把手教你使用 Travis CI 实现持续部署</a></p>
+</li>
+<li>
+<p><a href="https://mritd.me/2017/02/25/jekyll-blog-+-travis-ci-auto-deploy/" target="_blank" rel="noopener noreferrer">Jekyll + Travis CI 自动化部署博客</a></p>
+</li>
+<li>
+<p><a href="https://juejin.im/post/5a9e1a5751882555712bd8e1" target="_blank" rel="noopener noreferrer">Travis-CI 自动化测试并部署至自己的 CentOS 服务器</a></p>
+</li>
+<li>
+<p><a href="https://segmentfault.com/a/1190000011218410" target="_blank" rel="noopener noreferrer">Travis CI 系列：自动化部署博客</a></p>
+</li>
+<li>
+<p><a href="https://juejin.im/post/5a2941ad6fb9a045030ffc95" target="_blank" rel="noopener noreferrer">SSH 免密登录远程服务器</a></p>
+</li>
+<li>
+<p><a href="http://www.cnblogs.com/scofi/p/6617394.html" target="_blank" rel="noopener noreferrer">SSH 公钥登录原理</a></p>
+</li>
+<li>
+<p><a href="https://blog.csdn.net/yinweitao12/article/details/73165914" target="_blank" rel="noopener noreferrer">如何将 dockerhub 与 github 关联</a></p>
+</li>
+<li>
+<p><a href="http://www.cnblogs.com/YasinXiao/p/7736075.html" target="_blank" rel="noopener noreferrer">docker 启动，端口映射，挂载本地目录</a></p>
+</li>
+<li>
+<p><a href="https://yeasy.gitbooks.io/docker_practice/" target="_blank" rel="noopener noreferrer">Docker — 从入门到实践</a></p>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="http://tc.seoipo.com/20180504135244.png" type="image/png"/>
+    </item>
+    <item>
+      <title>怎么用 Adobe Audition 快速剪切音频？</title>
+      <link>https://newzone.top/_posts/2018-05-04-audition_cut_mp3.html</link>
+      <guid>https://newzone.top/_posts/2018-05-04-audition_cut_mp3.html</guid>
+      <source url="https://newzone.top/rss.xml">怎么用 Adobe Audition 快速剪切音频？</source>
+      <category>工具</category>
+      <pubDate>Fri, 04 May 2018 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>很久没剪音频了，突然被朋友拜托，才发现 Audition 剪切音频有多非人性，操作跟 10 年前的软件相比，没任何进步。</p>
+<h2 id="简易剪切流程" tabindex="-1"> 简易剪切流程</h2>
+<ol>
+<li>
+<p>在 Audition 中打开音频文件。</p>
+<p><img src="http://tc.seoipo.com/20180504152233.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>选定要删除的音频部分：左键按住在<strong>删除音频起点</strong>，然后拉动到<strong>删除音频重点</strong>，放开左键。</p>
+<p><img src="http://tc.seoipo.com/20180504151226.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>点击右键，选择<strong>删除</strong>。刚才选择的音频就被删除了。</p>
+<p><img src="http://tc.seoipo.com/20180504151306.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>在混音器中点击，用<strong>鼠标滚轮</strong>放大音频的可选间距，重复上面 3 步，继续剪切音频。</p>
+<p><img src="http://tc.seoipo.com/20180504151816.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>精修完后，点击 <code>文件</code> - <code>另存为</code>，就可以保存我们的音频文件了。</p>
+</li>
+</ol>
+<p>PS：原本是想用时间来截取音频，但找遍 Audition 菜单，也没发现能按时间来剪切的选项。最后还是靠鼠标完成的。。</p>
+]]></content:encoded>
+      <enclosure url="http://tc.seoipo.com/20180504152233.png" type="image/png"/>
     </item>
   </channel>
 </rss>
