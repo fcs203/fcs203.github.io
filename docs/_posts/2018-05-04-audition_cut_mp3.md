@@ -1,5 +1,5 @@
 ---
-title: 怎么用 Adobe Audition 快速剪切音频？
+title: 【转载】怎么用 Adobe Audition 快速剪切音频？
 date: 2018-05-04
 category:
   - 工具

@@ -1,5 +1,5 @@
 ---
-title: 真· Airtable 3 分钟菜鸟入门
+title: 【转载】真· Airtable 3 分钟菜鸟入门
 date: 2018-05-24
 category:
   - 工具

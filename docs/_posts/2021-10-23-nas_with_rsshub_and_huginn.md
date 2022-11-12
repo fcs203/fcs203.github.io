@@ -1,5 +1,5 @@
 ---
-title: RSS 完结篇：节省千元服务费，RSSHub、Huginn 转移 NAS
+title: 【转载】RSS 完结篇：节省千元服务费，RSSHub、Huginn 转移 NAS
 date: 2021-10-23
 category:
   - 自动化

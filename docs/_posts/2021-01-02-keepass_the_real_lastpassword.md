@@ -1,5 +1,5 @@
 ---
-title: 抛弃 Lastpass，拥抱 KeePass-免费开源的绿色密码管理软件
+title: 【转载】抛弃 Lastpass，拥抱 KeePass-免费开源的绿色密码管理软件
 subtitle: 我的最后一款密码管理器
 date: 2021-01-02
 category:

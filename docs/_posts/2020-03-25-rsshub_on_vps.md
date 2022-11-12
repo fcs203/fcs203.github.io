@@ -1,5 +1,5 @@
 ---
-title: RSS 速成篇 2：RSSHub 自部署
+title: 【转载】RSS 速成篇 2：RSSHub 自部署
 date: 2020-03-25
 category:
   - 自动化

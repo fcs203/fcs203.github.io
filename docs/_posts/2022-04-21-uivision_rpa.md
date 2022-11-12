@@ -1,5 +1,5 @@
 ---
-title: 不想学 Python，零基础也能用的自动化工具-UI.Vision RPA
+title: 【转载】不想学 Python，零基础也能用的自动化工具-UI.Vision RPA
 date: 2022-04-21
 category:
   - 自动化

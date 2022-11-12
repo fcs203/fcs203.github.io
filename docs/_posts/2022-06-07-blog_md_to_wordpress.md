@@ -1,5 +1,5 @@
 ---
-title: 集自动发布、本地管理于一身：WordPress 博客管理方案分享
+title: 【转载】集自动发布、本地管理于一身：WordPress 博客管理方案分享
 subtitle: 18 年博客探索总结
 date: 2022-06-07
 category:

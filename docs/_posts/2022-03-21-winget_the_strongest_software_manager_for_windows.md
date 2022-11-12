@@ -1,5 +1,5 @@
 ---
-title: 一键安装 99 个程序，Windows 最强软件管理器
+title: 【转载】一键安装 99 个程序，Windows 最强软件管理器
 date: 2022-03-21
 category:
   - 系统

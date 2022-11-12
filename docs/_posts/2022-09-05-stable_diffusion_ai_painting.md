@@ -1,5 +1,5 @@
 ---
-title: 零基础入门 Stable Diffusion - 无需显卡把 AI 绘画引擎搬进家用电脑
+title: 【转载】零基础入门 Stable Diffusion - 无需显卡把 AI 绘画引擎搬进家用电脑
 date: 2022-09-05
 category:
   - 工具
