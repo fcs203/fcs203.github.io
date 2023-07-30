@@ -9,7 +9,7 @@ export default navbar([
     prefix: "/",
     children: [
       "code/Markdown",
-      "code/AutoHotKey",
+      // "code/AutoHotKey",
       "code/Electron",
       {
         text: "页面开发",
