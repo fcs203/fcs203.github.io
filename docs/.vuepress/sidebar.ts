@@ -83,4 +83,12 @@ export default sidebar([
     collapsable: true,
     children: "structure",
   },
+  {
+    text: "from rockbenben",
+    icon: "",
+    prefix: "/_posts/",
+    link: "/from_rockbenben",
+    collapsable: true,
+    children: "structure",
+  },
 ]);

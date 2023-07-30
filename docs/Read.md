@@ -34,6 +34,6 @@ icon: read
 ## 费曼技巧
 
 1. Choose a Concept 选择一个概念；
-2. Teach it to a Toddle 假装把它讲给小孩子听；
+2. Teach it to a Toddle 假装把它讲给小孩子听,程序员领域对应的应该是小黄鸭调试法；
 3. Identify Gaps and Go Back to The Source Material 发现理解不到位的地方，返回原始材料学习；
 4. Review and Simplify (Optional) 回顾和简化信息（可选）。
