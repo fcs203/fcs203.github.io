@@ -8,7 +8,7 @@ tag:
 order: -18
 ---
 
-Airtable 是新型的表格制作工具，可以把文字、图片、链接、文档等各种资料聚合在一起，成为我们的**私人定制资料库**。
+<!-- Airtable 是新型的表格制作工具，可以把文字、图片、链接、文档等各种资料聚合在一起，成为我们的**私人定制资料库**。
 
 之前好几次看到介绍 Airtable 的文章，但每次的尝试都被繁多的模板给击败了。
 
@@ -123,4 +123,4 @@ Kanban 的界面和操作类似于 Trello，手动拖动卡片就可以操作。
 参考资料：
 
 - [Airtable 最強大線上表格製作，免費資料庫重整任何事](http://www.playpcesor.com/2016/06/airtable.html)
-- [重新想像 Excel 该有的样子：Airtable 评测](https://sspai.com/post/36402)
+- [重新想像 Excel 该有的样子：Airtable 评测](https://sspai.com/post/36402) -->

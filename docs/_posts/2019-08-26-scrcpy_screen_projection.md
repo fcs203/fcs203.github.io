@@ -10,7 +10,7 @@ star: true
 order: -26
 ---
 
-[scrcpy](https://github.com/Genymobile/scrcpy) 是免费开源的投屏软件，支持将安卓手机屏幕投放在 Windows、macOS、GNU/Linux 上，并可直接借助鼠标在投屏窗口中进行交互和录制。
+<!-- [scrcpy](https://github.com/Genymobile/scrcpy) 是免费开源的投屏软件，支持将安卓手机屏幕投放在 Windows、macOS、GNU/Linux 上，并可直接借助鼠标在投屏窗口中进行交互和录制。
 
 市面上主流的多屏协同软件都是基于 scrcpy 开发的套壳产品，bug 也没修复，推荐直接使用官方的 scrcpy。
 
@@ -96,4 +96,4 @@ cd D:\Libraries\Desktop\scrcpy-win64-v1.24
 
 ![](http://tc.seoipo.com/20190829095640.png "解决 scrcpy 投屏模糊")
 
-更多问题报错的解决方法，查看 [官方 FAQ](https://github.com/Genymobile/scrcpy/blob/master/FAQ.md)。
+更多问题报错的解决方法，查看 [官方 FAQ](https://github.com/Genymobile/scrcpy/blob/master/FAQ.md)。 -->

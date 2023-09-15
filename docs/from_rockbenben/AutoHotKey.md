@@ -5,7 +5,7 @@ icon: linter
 order: 4
 ---
 
-AutoHotKey 是 Windows 平台下开源的热键脚本语言。AHK 学习门槛不高，初期可以通过脚本录制来完成，我通过 AHK 热键启动、定时判断、改键盘等多种自动化操作，推荐学习制作你的专属自动化脚本。
+<!-- AutoHotKey 是 Windows 平台下开源的热键脚本语言。AHK 学习门槛不高，初期可以通过脚本录制来完成，我通过 AHK 热键启动、定时判断、改键盘等多种自动化操作，推荐学习制作你的专属自动化脚本。
 
 - [AutoHotKey 中文说明](https://wyagd001.github.io/zh-cn/docs/AutoHotkey.htm)：[按键 Key 名列表](https://wyagd001.github.io/zh-cn/docs/commands/Send.htm#keynames)，[AHK 环境变量](https://wyagd001.github.io/zh-cn/docs/Variables.htm#OSVersion)
 - 脚本录制/功能编辑：[Pulover's Macro Creator](https://www.macrocreator.com/download/)，[AutoHotKey 語法產生器 (線上網站)](https://github.com/papple23g/ahkcompiler)
@@ -270,4 +270,4 @@ SendText(var_string){
 $CapsLock::Enter
 LAlt & Capslock::SetCapsLockState, % GetKeyState("CapsLock", "T") ? "Off" : "On"
 !u::Send ^c !{tab} ^v
-```
+``` -->

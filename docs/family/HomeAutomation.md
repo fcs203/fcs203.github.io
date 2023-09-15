@@ -5,7 +5,7 @@ icon: home
 order: 3.1
 ---
 
-智能家居是家庭自动化最基础的一部分。之前一直偷懒直接用米家，但当我想把传感器与电脑联接起时，就开始了研究 Home Assistant 和 Node-RED。
+<!-- 智能家居是家庭自动化最基础的一部分。之前一直偷懒直接用米家，但当我想把传感器与电脑联接起时，就开始了研究 Home Assistant 和 Node-RED。
 
 ## Home Assistant
 
@@ -66,4 +66,4 @@ Home Assistant 虽然一直被吹得很厉害，但即时性的传感器可能�
 ### 其他硬件
 
 - [远程键盘控制器](https://item.taobao.com/item.htm?id=631865647089)：基于易微联的第三方产品，手机通过 APP 远程控制电脑按键，不过只能按一个按键或者连续 6 个的自定义键值。不确定是否支持 HA。
-- [MQTT 转 usb 虚拟键盘鼠标注入器](https://item.taobao.com/item.htm?id=675107124036)：通过 wifi 来控制，店家不清楚 HA。
+- [MQTT 转 usb 虚拟键盘鼠标注入器](https://item.taobao.com/item.htm?id=675107124036)：通过 wifi 来控制，店家不清楚 HA。 -->

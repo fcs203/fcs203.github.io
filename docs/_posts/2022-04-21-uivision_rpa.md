@@ -10,7 +10,7 @@ tag:
 order: -45
 ---
 
-> 无需懂编程代码，只需安装浏览器插件，3 分钟速成爬虫攻略。
+<!-- > 无需懂编程代码，只需安装浏览器插件，3 分钟速成爬虫攻略。
 
 Python 被认为是次时代必学语言，也就成为贩卖知识焦虑最好的标靶，各大平台隔三差五就想让我们买课程。
 
@@ -129,4 +129,4 @@ UI.Vision RPA 操作简单，定制脚本宏只需录制和完善两步。
 
 - [UI.Vision RPA 浏览器自动化工具：表单填写、网页内容抓取、网页操作录制](https://www.appinn.com/ui-vision-rpa/)
 - [UI.Vision 命令官方文档](https://ui.vision/rpa/docs/selenium-ide)
-- [白话 UI.Vision Kantu 插件](https://github.com/LoveOctocat/UI.Vision-Kantu-ZH)
+- [白话 UI.Vision Kantu 插件](https://github.com/LoveOctocat/UI.Vision-Kantu-ZH) -->
